@@ -10,7 +10,7 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
-    public function index(): void
+    public function up(): void
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
